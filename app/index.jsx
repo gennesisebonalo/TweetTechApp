@@ -2,8 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { ScrollView, Text, View, Image, ImageBackground } from 'react-native';
 import { router } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { images } from '../constants/images.js';  // Correct import
-import CustomButton from '../assets/components/CustomButton.jsx'; // Correct import
+import { images } from '../constants/images.js'; 
+import CustomButton from '../assets/components/CustomButton.jsx'; 
 
 export default function App() {
   const logo1Size = { width: 1000, height: 400 }; 
@@ -22,7 +22,7 @@ export default function App() {
           <View style={{ width: '100%', alignItems: 'center', paddingHorizontal: 16 }}>
             {/* Logo */}
             <Image
-              source={images.logo1}  // Ensure images.logo is defined correctly in images.js
+              source={images.logo1} 
               style={{ width: logo1Size.width, height: logo1Size.height, marginTop: 40 }} 
               resizeMode='contain'
             />
