@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, ImageBackground, Image, Dimensions, ScrollView, TouchableOpacity, Alert } from 'react-native';
-import { useNavigation } from '@react-navigation/native'; // Import the navigation hook
-
+import { useNavigation } from '@react-navigation/native'; 
 const backgroundImage = require('../../assets/images/background.png');
 const profileImage = require('../../assets/images/profile4.jpg');
 const postImage1 = require('../../assets/images/samsung.jpg');
@@ -10,7 +9,7 @@ const postImage2 = require('../../assets/images/thomas.jpg');
 const { height, width } = Dimensions.get('window');
 
 const Profile = () => {
-  const navigation = useNavigation(); // Initialize the navigation object
+  const navigation = useNavigation(); 
 
   const historyPosts = [
     { id: 1, type: 'status', content: 'Just completed a new project! Feeling proud.', time: '1 hour ago' },
@@ -22,7 +21,7 @@ const Profile = () => {
   const handleLogout = () => {
     Alert.alert('Logged Out', 'You have been logged out successfully.', [{
       text: 'OK',
-      onPress: () => navigation.navigate('index') // Navigate to the SignIn screen
+      onPress: () => navigation.navigate('index') 
     }]);
   };
 
