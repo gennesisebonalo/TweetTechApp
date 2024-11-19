@@ -28,7 +28,7 @@ TweetTech Mobile App.
 <img src="assets/images/login.png">  
 
 # Tabs Screen
-<img src="assets/images/home.png">   
-<img src="assets/images/live.png">   
-<img src="assets/images/notif.png">   
-<img src="assets/images/profile.png">   
+<img src="assets/images/home.jpg">   
+<img src="assets/images/live.jpg">   
+<img src="assets/images/notification.jpg">   
+<img src="assets/images/profile.jpg">   
